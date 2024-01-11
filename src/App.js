@@ -16,7 +16,7 @@ const App = () => {
     <div className={styles.app}>
       {todos.map(({ id, title }) => (
         <div className={styles.todos} key="id">
-          {id}-{title}
+          {title}
         </div>
       ))}
     </div>
